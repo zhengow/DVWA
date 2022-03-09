@@ -14,7 +14,7 @@ $page[ 'page_id' ] = 'log';
 // $page[ 'clear_log' ]; <- Was showing error.
 
 $page[ 'body' ] .= "
-<div class=\"body_padded\">
+
 	<h1>PHPIDS Log</h1>
 
 	<p>" . dvwaReadIdsLog() . "</p>
