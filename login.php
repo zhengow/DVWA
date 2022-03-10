@@ -14,7 +14,7 @@ if( isset( $_POST[ 'Login' ] ) ) {
 	} else {
 		$session_token = "";
 	}
-
+123
 	checkToken( $_REQUEST[ 'user_token' ], $session_token, 'login.php' );
 
 	$user = $_POST[ 'username' ];
